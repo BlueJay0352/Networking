@@ -1,10 +1,10 @@
 #!/usr/bin/perl -w
 #
  
-# On the ASA:
+#  On the ASA:
 #  pager 0
 #  sh access-list
-# Dump text to hitcnts.txt file.
+#  Dump text to hitcnts.txt file.
  
 use strict;
  
