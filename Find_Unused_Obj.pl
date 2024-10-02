@@ -44,7 +44,6 @@ foreach my $file (@files) {
 				if ($object =~ /PPS/)  {
 						print $fp "no object-group service $object \n"; 
 				}	
-				
 				else {
 						print $fp "no object-group network $object \n"; 
 				     }	 
