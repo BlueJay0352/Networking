@@ -41,9 +41,9 @@ foreach my $file (@files) {
 		foreach my $object (@objects) { 
 		        if (!grep { $_ =~ /$object/ } @config) {
 					
-					if ($object =~ /PPS/)  {
+				if ($object =~ /PPS/)  {
 						print $fp "no object-group service $object \n"; 
-					}	
+				}	
 				
 				else {
 						print $fp "no object-group network $object \n"; 
